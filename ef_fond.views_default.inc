@@ -107,7 +107,7 @@ function ef_fond_views_default_views() {
   $handler->display->display_options['filters']['field_cpr_number_value']['field'] = 'field_cpr_number_value';
   $handler->display->display_options['filters']['field_cpr_number_value']['relationship'] = 'commerce_line_items_line_item_id';
   $handler->display->display_options['filters']['field_cpr_number_value']['operator'] = 'not empty';
-  $handler->display->display_options['path'] = 'admin/commerce/fund-orders';
+  $handler->display->display_options['path'] = 'admin/commerce/orders/fund-orders';
   $handler->display->display_options['menu']['type'] = 'tab';
   $handler->display->display_options['menu']['title'] = 'Fund orders';
   $handler->display->display_options['menu']['weight'] = '0';
@@ -137,7 +137,7 @@ function ef_fond_views_default_views() {
   $handler->display->display_options['fields']['commerce_order_total']['settings'] = array(
     'calculation' => FALSE,
   );
-  $handler->display->display_options['path'] = 'admin/commerce/order-payments';
+  $handler->display->display_options['path'] = 'admin/commerce/orders/order-payments';
   $handler->display->display_options['menu']['type'] = 'tab';
   $handler->display->display_options['menu']['title'] = 'Paid orders';
   $handler->display->display_options['menu']['weight'] = '0';
@@ -178,7 +178,7 @@ function ef_fond_views_default_views() {
   $handler->display->display_options['fields']['commerce_order_total']['settings'] = array(
     'calculation' => FALSE,
   );
-  $handler->display->display_options['path'] = 'admin/commerce/order-payment.csv';
+  $handler->display->display_options['path'] = 'admin/commerce/orders/order-payment.csv';
   $handler->display->display_options['displays'] = array(
     'page_1' => 'page_1',
     'default' => 0,
@@ -271,7 +271,7 @@ function ef_fond_views_default_views() {
   $handler->display->display_options['fields']['title_field']['field'] = 'title_field';
   $handler->display->display_options['fields']['title_field']['relationship'] = 'og_membership_related_node_group';
   $handler->display->display_options['fields']['title_field']['link_to_entity'] = 0;
-  $handler->display->display_options['path'] = 'admin/commerce/all-orders';
+  $handler->display->display_options['path'] = 'admin/commerce/orders/all-orders';
   $handler->display->display_options['menu']['type'] = 'tab';
   $handler->display->display_options['menu']['title'] = 'All orders';
   $handler->display->display_options['menu']['weight'] = '0';
@@ -311,7 +311,7 @@ function ef_fond_views_default_views() {
   $handler->display->display_options['filters']['field_cpr_number_value']['field'] = 'field_cpr_number_value';
   $handler->display->display_options['filters']['field_cpr_number_value']['relationship'] = 'commerce_line_items_line_item_id';
   $handler->display->display_options['filters']['field_cpr_number_value']['operator'] = 'not empty';
-  $handler->display->display_options['path'] = 'admin/commerce/order-payment.csv';
+  $handler->display->display_options['path'] = 'admin/commerce/orders/fund-orders.csv';
   $handler->display->display_options['displays'] = array(
     'page' => 'page',
     'default' => 0,
