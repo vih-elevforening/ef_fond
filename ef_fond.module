@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the EF Fond feature.
+ */
+
+include_once 'ef_fond.features.inc';
